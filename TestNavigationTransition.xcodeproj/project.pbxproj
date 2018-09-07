@@ -15,6 +15,29 @@
 		1023C19C2140C51F00DF2303 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023C19B2140C51F00DF2303 /* main.m */; };
 		1023C1A62140C51F00DF2303 /* TestNavigationTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023C1A52140C51F00DF2303 /* TestNavigationTransitionTests.m */; };
 		1023C1B12140C51F00DF2303 /* TestNavigationTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023C1B02140C51F00DF2303 /* TestNavigationTransitionUITests.m */; };
+		1023C1C02140C5C900DF2303 /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023C1BF2140C5C900DF2303 /* Animator.m */; };
+		1023C1C72140FBE700DF2303 /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023C1C52140FBE700DF2303 /* AAViewController.m */; };
+		1023C1C82140FBE700DF2303 /* AAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1023C1C62140FBE700DF2303 /* AAViewController.xib */; };
+		1023C1CB2140FE2E00DF2303 /* PresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023C1CA2140FE2E00DF2303 /* PresentAnimator.m */; };
+		1023C1CE2141054500DF2303 /* Interactor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023C1CD2141054500DF2303 /* Interactor.m */; };
+		102829B321421A4600F6F0A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 102829B221421A4600F6F0A9 /* AppDelegate.m */; };
+		102829B621421A4600F6F0A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102829B521421A4600F6F0A9 /* ViewController.m */; };
+		102829B921421A4600F6F0A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102829B721421A4600F6F0A9 /* Main.storyboard */; };
+		102829BB21421A4600F6F0A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102829BA21421A4600F6F0A9 /* Assets.xcassets */; };
+		102829BE21421A4600F6F0A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102829BC21421A4600F6F0A9 /* LaunchScreen.storyboard */; };
+		102829C121421A4600F6F0A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 102829C021421A4600F6F0A9 /* main.m */; };
+		102829CB21421A4600F6F0A9 /* AnimationTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 102829CA21421A4600F6F0A9 /* AnimationTransitionTests.m */; };
+		102829D621421A4600F6F0A9 /* AnimationTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 102829D521421A4600F6F0A9 /* AnimationTransitionUITests.m */; };
+		102829E421421B6800F6F0A9 /* QQMusicTransitionPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 102829E321421B6800F6F0A9 /* QQMusicTransitionPush.m */; };
+		102829E821421CCF00F6F0A9 /* QQFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102829E621421CCF00F6F0A9 /* QQFirstViewController.m */; };
+		102829E921421CCF00F6F0A9 /* QQFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102829E721421CCF00F6F0A9 /* QQFirstViewController.xib */; };
+		102829ED21421CE400F6F0A9 /* QQSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102829EB21421CE400F6F0A9 /* QQSecondViewController.m */; };
+		102829EE21421CE400F6F0A9 /* QQSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102829EC21421CE400F6F0A9 /* QQSecondViewController.xib */; };
+		102829F12142294800F6F0A9 /* QQMusicTransitionDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = 102829F02142294800F6F0A9 /* QQMusicTransitionDismiss.m */; };
+		102829F52142494E00F6F0A9 /* SpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102829F32142494E00F6F0A9 /* SpringViewController.m */; };
+		102829F62142494E00F6F0A9 /* SpringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102829F42142494E00F6F0A9 /* SpringViewController.xib */; };
+		102829F92142496500F6F0A9 /* SpringShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102829F82142496500F6F0A9 /* SpringShowViewController.m */; };
+		102829FC21424BB800F6F0A9 /* SpringTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 102829FB21424BB800F6F0A9 /* SpringTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +54,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1023C1882140C51F00DF2303;
 			remoteInfo = TestNavigationTransition;
+		};
+		102829C721421A4600F6F0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1023C1812140C51F00DF2303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 102829AE21421A4600F6F0A9;
+			remoteInfo = AnimationTransition;
+		};
+		102829D221421A4600F6F0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1023C1812140C51F00DF2303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 102829AE21421A4600F6F0A9;
+			remoteInfo = AnimationTransition;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,6 +88,48 @@
 		1023C1AC2140C51F00DF2303 /* TestNavigationTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNavigationTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1023C1B02140C51F00DF2303 /* TestNavigationTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNavigationTransitionUITests.m; sourceTree = "<group>"; };
 		1023C1B22140C51F00DF2303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1023C1BE2140C5C900DF2303 /* Animator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		1023C1BF2140C5C900DF2303 /* Animator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
+		1023C1C42140FBE700DF2303 /* AAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAViewController.h; sourceTree = "<group>"; };
+		1023C1C52140FBE700DF2303 /* AAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAViewController.m; sourceTree = "<group>"; };
+		1023C1C62140FBE700DF2303 /* AAViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AAViewController.xib; sourceTree = "<group>"; };
+		1023C1C92140FE2E00DF2303 /* PresentAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentAnimator.h; sourceTree = "<group>"; };
+		1023C1CA2140FE2E00DF2303 /* PresentAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentAnimator.m; sourceTree = "<group>"; };
+		1023C1CC2141054500DF2303 /* Interactor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interactor.h; sourceTree = "<group>"; };
+		1023C1CD2141054500DF2303 /* Interactor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interactor.m; sourceTree = "<group>"; };
+		102829AF21421A4600F6F0A9 /* AnimationTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		102829B121421A4600F6F0A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		102829B221421A4600F6F0A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		102829B421421A4600F6F0A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		102829B521421A4600F6F0A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		102829B821421A4600F6F0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		102829BA21421A4600F6F0A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		102829BD21421A4600F6F0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		102829BF21421A4600F6F0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102829C021421A4600F6F0A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		102829C621421A4600F6F0A9 /* AnimationTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		102829CA21421A4600F6F0A9 /* AnimationTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTransitionTests.m; sourceTree = "<group>"; };
+		102829CC21421A4600F6F0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102829D121421A4600F6F0A9 /* AnimationTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		102829D521421A4600F6F0A9 /* AnimationTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTransitionUITests.m; sourceTree = "<group>"; };
+		102829D721421A4600F6F0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102829E221421B6800F6F0A9 /* QQMusicTransitionPush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQMusicTransitionPush.h; sourceTree = "<group>"; };
+		102829E321421B6800F6F0A9 /* QQMusicTransitionPush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQMusicTransitionPush.m; sourceTree = "<group>"; };
+		102829E521421CCF00F6F0A9 /* QQFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQFirstViewController.h; sourceTree = "<group>"; };
+		102829E621421CCF00F6F0A9 /* QQFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQFirstViewController.m; sourceTree = "<group>"; };
+		102829E721421CCF00F6F0A9 /* QQFirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QQFirstViewController.xib; sourceTree = "<group>"; };
+		102829EA21421CE400F6F0A9 /* QQSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQSecondViewController.h; sourceTree = "<group>"; };
+		102829EB21421CE400F6F0A9 /* QQSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQSecondViewController.m; sourceTree = "<group>"; };
+		102829EC21421CE400F6F0A9 /* QQSecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QQSecondViewController.xib; sourceTree = "<group>"; };
+		102829EF2142294800F6F0A9 /* QQMusicTransitionDismiss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQMusicTransitionDismiss.h; sourceTree = "<group>"; };
+		102829F02142294800F6F0A9 /* QQMusicTransitionDismiss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQMusicTransitionDismiss.m; sourceTree = "<group>"; };
+		102829F22142494E00F6F0A9 /* SpringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringViewController.h; sourceTree = "<group>"; };
+		102829F32142494E00F6F0A9 /* SpringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringViewController.m; sourceTree = "<group>"; };
+		102829F42142494E00F6F0A9 /* SpringViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpringViewController.xib; sourceTree = "<group>"; };
+		102829F72142496500F6F0A9 /* SpringShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringShowViewController.h; sourceTree = "<group>"; };
+		102829F82142496500F6F0A9 /* SpringShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringShowViewController.m; sourceTree = "<group>"; };
+		102829FA21424BB800F6F0A9 /* SpringTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringTransition.h; sourceTree = "<group>"; };
+		102829FB21424BB800F6F0A9 /* SpringTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +154,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		102829AC21421A4600F6F0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102829C321421A4600F6F0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102829CE21421A4600F6F0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +184,9 @@
 				1023C18B2140C51F00DF2303 /* TestNavigationTransition */,
 				1023C1A42140C51F00DF2303 /* TestNavigationTransitionTests */,
 				1023C1AF2140C51F00DF2303 /* TestNavigationTransitionUITests */,
+				102829B021421A4600F6F0A9 /* AnimationTransition */,
+				102829C921421A4600F6F0A9 /* AnimationTransitionTests */,
+				102829D421421A4600F6F0A9 /* AnimationTransitionUITests */,
 				1023C18A2140C51F00DF2303 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +197,9 @@
 				1023C1892140C51F00DF2303 /* TestNavigationTransition.app */,
 				1023C1A12140C51F00DF2303 /* TestNavigationTransitionTests.xctest */,
 				1023C1AC2140C51F00DF2303 /* TestNavigationTransitionUITests.xctest */,
+				102829AF21421A4600F6F0A9 /* AnimationTransition.app */,
+				102829C621421A4600F6F0A9 /* AnimationTransitionTests.xctest */,
+				102829D121421A4600F6F0A9 /* AnimationTransitionUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +211,15 @@
 				1023C18D2140C51F00DF2303 /* AppDelegate.m */,
 				1023C18F2140C51F00DF2303 /* ViewController.h */,
 				1023C1902140C51F00DF2303 /* ViewController.m */,
+				1023C1C42140FBE700DF2303 /* AAViewController.h */,
+				1023C1C52140FBE700DF2303 /* AAViewController.m */,
+				1023C1C62140FBE700DF2303 /* AAViewController.xib */,
+				1023C1BE2140C5C900DF2303 /* Animator.h */,
+				1023C1BF2140C5C900DF2303 /* Animator.m */,
+				1023C1C92140FE2E00DF2303 /* PresentAnimator.h */,
+				1023C1CA2140FE2E00DF2303 /* PresentAnimator.m */,
+				1023C1CC2141054500DF2303 /* Interactor.h */,
+				1023C1CD2141054500DF2303 /* Interactor.m */,
 				1023C1922140C51F00DF2303 /* Main.storyboard */,
 				1023C1952140C51F00DF2303 /* Assets.xcassets */,
 				1023C1972140C51F00DF2303 /* LaunchScreen.storyboard */,
@@ -130,6 +245,65 @@
 				1023C1B22140C51F00DF2303 /* Info.plist */,
 			);
 			path = TestNavigationTransitionUITests;
+			sourceTree = "<group>";
+		};
+		102829B021421A4600F6F0A9 /* AnimationTransition */ = {
+			isa = PBXGroup;
+			children = (
+				102829B121421A4600F6F0A9 /* AppDelegate.h */,
+				102829B221421A4600F6F0A9 /* AppDelegate.m */,
+				102829B421421A4600F6F0A9 /* ViewController.h */,
+				102829B521421A4600F6F0A9 /* ViewController.m */,
+				102829E521421CCF00F6F0A9 /* QQFirstViewController.h */,
+				102829E621421CCF00F6F0A9 /* QQFirstViewController.m */,
+				102829E721421CCF00F6F0A9 /* QQFirstViewController.xib */,
+				102829EA21421CE400F6F0A9 /* QQSecondViewController.h */,
+				102829EB21421CE400F6F0A9 /* QQSecondViewController.m */,
+				102829EC21421CE400F6F0A9 /* QQSecondViewController.xib */,
+				102829F22142494E00F6F0A9 /* SpringViewController.h */,
+				102829F32142494E00F6F0A9 /* SpringViewController.m */,
+				102829F42142494E00F6F0A9 /* SpringViewController.xib */,
+				102829F72142496500F6F0A9 /* SpringShowViewController.h */,
+				102829F82142496500F6F0A9 /* SpringShowViewController.m */,
+				102829E121421AE000F6F0A9 /* Transition */,
+				102829B721421A4600F6F0A9 /* Main.storyboard */,
+				102829BA21421A4600F6F0A9 /* Assets.xcassets */,
+				102829BC21421A4600F6F0A9 /* LaunchScreen.storyboard */,
+				102829BF21421A4600F6F0A9 /* Info.plist */,
+				102829C021421A4600F6F0A9 /* main.m */,
+			);
+			path = AnimationTransition;
+			sourceTree = "<group>";
+		};
+		102829C921421A4600F6F0A9 /* AnimationTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				102829CA21421A4600F6F0A9 /* AnimationTransitionTests.m */,
+				102829CC21421A4600F6F0A9 /* Info.plist */,
+			);
+			path = AnimationTransitionTests;
+			sourceTree = "<group>";
+		};
+		102829D421421A4600F6F0A9 /* AnimationTransitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				102829D521421A4600F6F0A9 /* AnimationTransitionUITests.m */,
+				102829D721421A4600F6F0A9 /* Info.plist */,
+			);
+			path = AnimationTransitionUITests;
+			sourceTree = "<group>";
+		};
+		102829E121421AE000F6F0A9 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				102829E221421B6800F6F0A9 /* QQMusicTransitionPush.h */,
+				102829E321421B6800F6F0A9 /* QQMusicTransitionPush.m */,
+				102829EF2142294800F6F0A9 /* QQMusicTransitionDismiss.h */,
+				102829F02142294800F6F0A9 /* QQMusicTransitionDismiss.m */,
+				102829FA21424BB800F6F0A9 /* SpringTransition.h */,
+				102829FB21424BB800F6F0A9 /* SpringTransition.m */,
+			);
+			path = Transition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +362,59 @@
 			productReference = 1023C1AC2140C51F00DF2303 /* TestNavigationTransitionUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		102829AE21421A4600F6F0A9 /* AnimationTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102829DE21421A4600F6F0A9 /* Build configuration list for PBXNativeTarget "AnimationTransition" */;
+			buildPhases = (
+				102829AB21421A4600F6F0A9 /* Sources */,
+				102829AC21421A4600F6F0A9 /* Frameworks */,
+				102829AD21421A4600F6F0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationTransition;
+			productName = AnimationTransition;
+			productReference = 102829AF21421A4600F6F0A9 /* AnimationTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		102829C521421A4600F6F0A9 /* AnimationTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102829DF21421A4600F6F0A9 /* Build configuration list for PBXNativeTarget "AnimationTransitionTests" */;
+			buildPhases = (
+				102829C221421A4600F6F0A9 /* Sources */,
+				102829C321421A4600F6F0A9 /* Frameworks */,
+				102829C421421A4600F6F0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				102829C821421A4600F6F0A9 /* PBXTargetDependency */,
+			);
+			name = AnimationTransitionTests;
+			productName = AnimationTransitionTests;
+			productReference = 102829C621421A4600F6F0A9 /* AnimationTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		102829D021421A4600F6F0A9 /* AnimationTransitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102829E021421A4600F6F0A9 /* Build configuration list for PBXNativeTarget "AnimationTransitionUITests" */;
+			buildPhases = (
+				102829CD21421A4600F6F0A9 /* Sources */,
+				102829CE21421A4600F6F0A9 /* Frameworks */,
+				102829CF21421A4600F6F0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				102829D321421A4600F6F0A9 /* PBXTargetDependency */,
+			);
+			name = AnimationTransitionUITests;
+			productName = AnimationTransitionUITests;
+			productReference = 102829D121421A4600F6F0A9 /* AnimationTransitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,6 +438,20 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1023C1882140C51F00DF2303;
 					};
+					102829AE21421A4600F6F0A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					102829C521421A4600F6F0A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 102829AE21421A4600F6F0A9;
+					};
+					102829D021421A4600F6F0A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 102829AE21421A4600F6F0A9;
+					};
 				};
 			};
 			buildConfigurationList = 1023C1842140C51F00DF2303 /* Build configuration list for PBXProject "TestNavigationTransition" */;
@@ -229,6 +470,9 @@
 				1023C1882140C51F00DF2303 /* TestNavigationTransition */,
 				1023C1A02140C51F00DF2303 /* TestNavigationTransitionTests */,
 				1023C1AB2140C51F00DF2303 /* TestNavigationTransitionUITests */,
+				102829AE21421A4600F6F0A9 /* AnimationTransition */,
+				102829C521421A4600F6F0A9 /* AnimationTransitionTests */,
+				102829D021421A4600F6F0A9 /* AnimationTransitionUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,6 +484,7 @@
 			files = (
 				1023C1992140C51F00DF2303 /* LaunchScreen.storyboard in Resources */,
 				1023C1962140C51F00DF2303 /* Assets.xcassets in Resources */,
+				1023C1C82140FBE700DF2303 /* AAViewController.xib in Resources */,
 				1023C1942140C51F00DF2303 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +503,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		102829AD21421A4600F6F0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102829BE21421A4600F6F0A9 /* LaunchScreen.storyboard in Resources */,
+				102829F62142494E00F6F0A9 /* SpringViewController.xib in Resources */,
+				102829BB21421A4600F6F0A9 /* Assets.xcassets in Resources */,
+				102829B921421A4600F6F0A9 /* Main.storyboard in Resources */,
+				102829E921421CCF00F6F0A9 /* QQFirstViewController.xib in Resources */,
+				102829EE21421CE400F6F0A9 /* QQSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102829C421421A4600F6F0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102829CF21421A4600F6F0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -265,9 +537,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1023C1CB2140FE2E00DF2303 /* PresentAnimator.m in Sources */,
+				1023C1C02140C5C900DF2303 /* Animator.m in Sources */,
 				1023C1912140C51F00DF2303 /* ViewController.m in Sources */,
+				1023C1CE2141054500DF2303 /* Interactor.m in Sources */,
 				1023C19C2140C51F00DF2303 /* main.m in Sources */,
 				1023C18E2140C51F00DF2303 /* AppDelegate.m in Sources */,
+				1023C1C72140FBE700DF2303 /* AAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +563,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		102829AB21421A4600F6F0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102829E421421B6800F6F0A9 /* QQMusicTransitionPush.m in Sources */,
+				102829E821421CCF00F6F0A9 /* QQFirstViewController.m in Sources */,
+				102829ED21421CE400F6F0A9 /* QQSecondViewController.m in Sources */,
+				102829F52142494E00F6F0A9 /* SpringViewController.m in Sources */,
+				102829B621421A4600F6F0A9 /* ViewController.m in Sources */,
+				102829C121421A4600F6F0A9 /* main.m in Sources */,
+				102829B321421A4600F6F0A9 /* AppDelegate.m in Sources */,
+				102829FC21424BB800F6F0A9 /* SpringTransition.m in Sources */,
+				102829F92142496500F6F0A9 /* SpringShowViewController.m in Sources */,
+				102829F12142294800F6F0A9 /* QQMusicTransitionDismiss.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102829C221421A4600F6F0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102829CB21421A4600F6F0A9 /* AnimationTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102829CD21421A4600F6F0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102829D621421A4600F6F0A9 /* AnimationTransitionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -299,6 +608,16 @@
 			isa = PBXTargetDependency;
 			target = 1023C1882140C51F00DF2303 /* TestNavigationTransition */;
 			targetProxy = 1023C1AD2140C51F00DF2303 /* PBXContainerItemProxy */;
+		};
+		102829C821421A4600F6F0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 102829AE21421A4600F6F0A9 /* AnimationTransition */;
+			targetProxy = 102829C721421A4600F6F0A9 /* PBXContainerItemProxy */;
+		};
+		102829D321421A4600F6F0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 102829AE21421A4600F6F0A9 /* AnimationTransition */;
+			targetProxy = 102829D221421A4600F6F0A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -315,6 +634,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				1023C1982140C51F00DF2303 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		102829B721421A4600F6F0A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				102829B821421A4600F6F0A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		102829BC21421A4600F6F0A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				102829BD21421A4600F6F0A9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -506,6 +841,86 @@
 			};
 			name = Release;
 		};
+		102829D821421A4600F6F0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.AnimationTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		102829D921421A4600F6F0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.AnimationTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		102829DA21421A4600F6F0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.AnimationTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationTransition.app/AnimationTransition";
+			};
+			name = Debug;
+		};
+		102829DB21421A4600F6F0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.AnimationTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationTransition.app/AnimationTransition";
+			};
+			name = Release;
+		};
+		102829DC21421A4600F6F0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.AnimationTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimationTransition;
+			};
+			name = Debug;
+		};
+		102829DD21421A4600F6F0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.AnimationTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimationTransition;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -541,6 +956,33 @@
 			buildConfigurations = (
 				1023C1BC2140C52000DF2303 /* Debug */,
 				1023C1BD2140C52000DF2303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		102829DE21421A4600F6F0A9 /* Build configuration list for PBXNativeTarget "AnimationTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102829D821421A4600F6F0A9 /* Debug */,
+				102829D921421A4600F6F0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		102829DF21421A4600F6F0A9 /* Build configuration list for PBXNativeTarget "AnimationTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102829DA21421A4600F6F0A9 /* Debug */,
+				102829DB21421A4600F6F0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		102829E021421A4600F6F0A9 /* Build configuration list for PBXNativeTarget "AnimationTransitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102829DC21421A4600F6F0A9 /* Debug */,
+				102829DD21421A4600F6F0A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
